@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+
+float a,b,multiply;
+
+printf("Enter two numbers to operate on\n");
+scanf("%f%f", &a, &b);
+ 
+multiply = a * b;
+
+printf("Product of the numbers = %f\n", multiply);
+
+return 0;
+}
